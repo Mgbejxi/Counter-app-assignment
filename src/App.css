@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.body-section {
+  overflow-x: hidden;
+}
+
+.count-section {
+  background-color: white;
+  color: black;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 10px 12px 20px #da77f2;
+}
+
+.count-num {
+  color: #5f3dc4;
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+.count-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+button {
+  border: 1px solid #343a40;
+  background-color: #f7f3ec;
+  padding: 0.5em 0.8em;
+  color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .body-section {
+    overflow-x: hidden;
+  }
+  .count-section {
+    width: 96%;
+  }
+
+  .count-buttons {
+    flex-wrap: wrap;
+  }
+
+  button {
+    padding: 0.4em 0.5em;
+  }
+}
